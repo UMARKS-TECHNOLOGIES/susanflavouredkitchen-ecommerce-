@@ -32,6 +32,7 @@ contribution guidelines for all developers.
 
 # Project Structure
 
+```
 src/
 ├── components/
 │   ├── common/
@@ -45,7 +46,7 @@ src/
 ├── assets/
 ├── App.jsx
 └── main.jsx
-
+```
 # Environment Variables
 
 ## Frontend (.env)
