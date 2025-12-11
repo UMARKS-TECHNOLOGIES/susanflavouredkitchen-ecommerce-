@@ -1,10 +1,12 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import AdminDashboard from './pages/AdminDashboard';
 
 function App() {
   return (
-      <div className="bg-blue-500 text-white p-5 text-2xl font-bold">
-      well come
-    </div>
+      <Routes>
+        <Route path="/admin" element={<AdminDashboard /> } />
+      </Routes>
   );
 }
 
